@@ -4,7 +4,7 @@
   "main": "loco.js",
   "scripts": {
     "loco": "echo \"Error: no test specified\" && exit 1",
-    "start": "node loco.js"
+    "start": "node loco.js",
     "r": "node loco.js"
   },
   "keywords": [],
