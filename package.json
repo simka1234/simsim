@@ -1,8 +1,10 @@
 {
-  "name": "dicobot",
+  "name": "loco",
   "version": "1.0.0",
   "main": "loco.js",
   "scripts": {
+    "loco": "echo \"Error: no test specified\" && exit 1",
+    "start": "node loco.js"
     "r": "node loco.js"
   },
   "keywords": [],
