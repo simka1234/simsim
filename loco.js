@@ -1,9 +1,8 @@
-
 const node_kakao = require("@storycraft/node-kakao");
 const readline = require('readline');
 const email = "test200830@gmail.com";
-const password = process.env.password;
-const deviceUUID = process.env.uuid;
+const password = "leeyein0909";
+const deviceUUID = "hKK6tE8QO7k0bAa7SxeP7/rZOqlIBwyZoxzI0kxKPydetovH3LSLaVWMQIzDsKqYVq4UyoO6ItN92pV5aooDlQ==";
 const deviceNAME = "SAMSUNG";
 let client = new node_kakao.TalkClient(deviceNAME, deviceUUID);
 
