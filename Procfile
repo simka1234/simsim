@@ -1,1 +1,1 @@
-worker: node loco.js
+worker : node loco.js
