@@ -1,10 +1,9 @@
-
 const node_kakao = require("@storycraft/node-kakao");
 const readline = require('readline');
-const email = "test200830@gmail.com";
+const email = process.env.email;
 const password = process.env.password;
 const deviceUUID = process.env.uuid;
-const deviceNAME = "SAMSUNG";
+const deviceNAME = process.env.deviceName;
 let client = new node_kakao.TalkClient(deviceNAME, deviceUUID);
 
 async function login(email, password, deviceUUID, deviceNAME, forced) {
